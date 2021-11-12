@@ -33,7 +33,6 @@ void setup(){
   // start input from AudioIn and use it in amplitude analyser
   input.start();
   analyzer.input(input);
-  
 }
 
 
