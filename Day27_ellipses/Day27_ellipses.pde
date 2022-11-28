@@ -17,11 +17,8 @@ void setup() {
 
 void draw() {
   
-  // only draw when mouse not pressed
   if (!mousePressed) {
-    for (int i=0; i<no_ellipses; i++) {
-      fill(random(0, 255), random(0, 255), random(0, 255));
-      ellipse(random(0, width), random(0, height), d, d);
-    }
+    fill(random(0, 255), random(0, 255), random(0, 255));
+    ellipse(random(0, width), random(0, height), d, d);
   }
 }
